@@ -42,3 +42,207 @@
   text-align: center;
   user-select: none;
 }
+.table .body td {
+  background-color: #cde5ff;
+  border-bottom: 1px solid #004ea0;
+  border-right: 1px solid #004ea0;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+  text-align: center;
+  text-align: left;
+}
+.table .body tr:hover td {
+  background-color: #d6e2f5;
+}
+.table .sortable {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.table .sortable a {
+  display: block;
+  height: 100%;
+  line-height: 26px;
+  padding: 0 14px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.table .sortable span {
+  display: block;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  width: 11px;
+}
+.table .sortable .init {
+  background-position: 0 0;
+}
+.table .sortable .asc {
+  background-position: -11px 0;
+}
+.table .sortable .desc {
+  background-position: -22px 0;
+}
+.table .list-checkbox {
+  width: 10px;
+}
+.table .icon {
+  text-align: center;
+  width: 3em;
+}
+.table .icon a {
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  margin: 0 auto;
+  width: 18px;
+}
+.table .icon-edit {
+  background-position: -18px -18px ;
+}
+.table .icon-edit:hover {
+  background-position: -18px -36px;
+}
+.table .icon-delete {
+  background-position: 0px -18px;
+}
+.table .icon-delete:hover {
+  background-position: 0px -36px;
+}
+.table .icon-action {
+  background-position: -36px -18px;
+}
+.table .icon-action:hover {
+  background-position: -36px -36px;
+}
+.table .column.center {
+  text-align: center;
+}
+.table .column.left {
+  text-align: left;
+}
+.table .column.right {
+  text-align: right;
+}
+.table .functions {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+}
+.table .functions .button {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.table .footer {
+  padding: 5px 0;
+  text-align: center;
+}
+.table .footer ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+}
+.table .footer li {
+  color: #006bdc;
+  float: left;
+  height: 25px;
+}
+.table .footer .splitter {
+  border-right: 1px solid #4b6d23;
+  height: 10px;
+  margin: 3px;
+}
+.table .footer a {
+  color: #006bdc;
+  text-decoration: none;
+}
+.table .footer a:hover {
+  text-decoration: underline;
+}
+.form {
+  background-color: #EBF5FF;
+  border: 1px solid #1989FF;
+  color: #006bdc;
+  margin: 23px;
+  padding: 10px;
+}
+.form .form-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form .field {
+  height: 30px;
+}
+.form .field input {
+  height: 19px;
+}
+.form .field label {
+  font-weight: normal;
+}
+.form .functions {
+  clear: both;
+  padding-top: 10px;
+}
+.form .button {
+  float: left;
+  margin-right: 10px;
+}
+.form .description {
+  height: 100px;
+  max-width: 300px;
+}
+.form .form-table {
+  float: left;
+  width: auto;
+}
+.form .form-table td {
+  background: none;
+  font-size: 12px;
+  line-height: 24px;
+}
+.form .form-table td:first-child {
+  max-width: 170px;
+}
+.form .form-table td label {
+  line-height: 24px;
+}
+.form .form-table td input {
+  font-size: 14px;
+  height: 20px;
+}
+.form .form-table td select {
+  font-size: 14px;
+  height: 20px;
+}
+.form .form-table td textarea {
+  max-height: 100px;
+}
+.form .form-table .numeric {
+  width: 60px;
+}
+.form .comment {
+  color: #333333;
+  font-size: 11px;
+  font-weight: normal;
+  max-width: 100px;
+}
+.form .relation-list {
+  border: 1px solid #bbbbbb;
+  list-style: none;
+  margin: 0;
+  min-height: 24px;
+  overflow-y: scroll;
+  padding: 0 20px 0 7px;
+}
+.form .relation-list .relation-item {
+  height: 14px;
+}
+.form .relation-list .relation-item-name {
+  line-height: 20px;
+  vertical-align: baseline;
+}
