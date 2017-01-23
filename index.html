@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    <body>
+        <form method="post" enctype="multipart/gorm-data" action="/admin/login/login_chk">
+            <div class="login">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td align="right">&nbsp;帳&nbsp;&nbsp;&nbsp;&nbsp;號：</td>
+                            <td align="left">
+                                <input type="text" name="account">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;碼：</td>
+                            <td align="left">
+                                <input type="password" name="password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>&nbsp;</td>
+                            <td>&#160;
+                                <div class="functions">
+                                    <div class="button submit">
+                                        <input type="submit" value="登入" class="submit">
+                                    </div>
+                                    <a href="<?php echo $this->config->default_main; ?>/signup">前往註冊</a>
+                                    <div class="clear">
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>    
+    </body>
+</html>
